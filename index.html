@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USA Number List Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📞 USA Number List Checker</h1>
+    <textarea id="numberList" placeholder="Enter phone numbers (one per line)"></textarea>
+    <button id="startBtn">Start Checking</button>
+
+    <div class="progress">
+      <div id="progressBar"></div>
+    </div>
+
+    <div class="results">
+      <div class="box clean">
+        <h2>✅ Clean Numbers</h2>
+        <pre id="cleanList"></pre>
+      </div>
+      <div class="box dnc">
+        <h2>🚫 DNC Numbers</h2>
+        <pre id="dncList"></pre>
+      </div>
+      <div class="box invalid">
+        <h2>❌ Invalid Numbers</h2>
+        <pre id="invalidList"></pre>
+      </div>
+    </div>
+
+    <p class="footer">Created by <b>Ehtisham</b></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
