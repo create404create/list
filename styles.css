@@ -1,98 +1,16 @@
-body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 20px;
-}
-
-h1 {
-  font-size: 28px;
-  margin-bottom: 15px;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  border-radius: 10px;
-  border: none;
-  padding: 10px;
-  font-size: 16px;
-  resize: none;
-  outline: none;
-}
-
-button {
-  margin-top: 15px;
-  padding: 12px 25px;
-  font-size: 18px;
-  border: none;
-  border-radius: 10px;
-  background: #00c851;
-  color: white;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover {
-  background: #007e33;
-}
-
-.progress {
-  margin: 20px 0;
-  width: 100%;
-  height: 10px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-#progressBar {
-  height: 10px;
-  width: 0%;
-  background: #00c851;
-  transition: width 0.4s ease;
-}
-
-.results {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.box {
-  flex: 1;
-  min-width: 260px;
-  border-radius: 10px;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  text-align: left;
-}
-
-.box h2 {
-  text-align: center;
-}
-
-pre {
-  white-space: pre-wrap;
-  font-size: 14px;
-  margin: 0;
-  color: #fff;
-}
-
-.clean { border-left: 5px solid #00c851; }
-.dnc { border-left: 5px solid #ff4444; }
-.invalid { border-left: 5px solid #ffbb33; }
-
-.footer {
-  margin-top: 20px;
-  opacity: 0.8;
-}
+body { background: linear-gradient(135deg,#0f2027,#203a43,#2c5364); color:#fff; font-family:Poppins,sans-serif; text-align:center; margin:0; padding:0;}
+.container{max-width:900px; margin:30px auto; padding:20px;}
+h1{font-size:28px;margin-bottom:15px;}
+textarea{width:100%;height:150px;border-radius:10px;border:none;padding:10px;font-size:16px;resize:none;outline:none;}
+button{margin-top:15px;padding:12px 25px;font-size:18px;border:none;border-radius:10px;background:#00c851;color:#fff;cursor:pointer;transition:.3s;}
+button:hover{background:#007e33;}
+.progress{margin:20px 0;width:100%;height:10px;background:rgba(255,255,255,.2);border-radius:5px;overflow:hidden;}
+#progressBar{height:10px;width:0;background:#00c851;transition:width .4s ease;}
+.results{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+.box{flex:1;min-width:260px;border-radius:10px;padding:10px;background:rgba(255,255,255,.1);text-align:left;}
+.box h2{text-align:center;}
+pre{white-space:pre-wrap;font-size:14px;margin:0;color:#fff;}
+.clean{border-left:5px solid #00c851;}
+.dnc{border-left:5px solid #ff4444;}
+.invalid{border-left:5px solid #ffbb33;}
+.footer{margin-top:20px;opacity:.8;}
